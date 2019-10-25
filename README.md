@@ -1,37 +1,21 @@
-## Welcome to GitHub Pages
+## Welcome to MJs GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/MauroJurada/GDD-shmup/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### GDD SHMUP
 
 ```markdown
-Syntax highlighted code block
+Classic little simple 2D side scrolling Shmup (“Shoot’em up”) game made with Unity. 
 
-# Header 1
-## Header 2
-### Header 3
+# The basic features it contains:
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/MauroJurada/GDD-shmup/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+   - Player Character moving from left to right through the level in a side scrolling manner
+   - Ability for the player to move freely within the bounds of the level (Arrow Keys or WASD)
+   - Ability for the player to fire projectiles
+   - Enemies entering the screen from the right hand side
+   - Lose condition: enemies can destroy the player character (either with projectiles or by collision)
+   - Win condition: highscore based system where the player plays endlessly until he/she reaches the lose condition 
+   - Start screen at the beginning 
+   
+## Exploding projectile: 
+- Creates a special type of projectile which explodes if it hits an enemy and then does area damage, which means it hurts every enemy within a certain radius from the impact point. Visuals clearly communicate to the player where damage is applied.
+### Ship selection: 
+- Simple player character selection screen with 2 choices before starting the game. The 2 chooseable player characters are different in regards to visuals as well as moving speed and projectile damage.
