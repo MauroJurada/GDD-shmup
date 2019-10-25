@@ -2,7 +2,6 @@
 
 ### GDD SHMUP
 
-```markdown
 Classic little simple 2D side scrolling Shmup (“Shoot’em up”) game made with Unity. 
 
 # The basic features it contains:
