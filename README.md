@@ -20,4 +20,4 @@ Classic little simple 2D side scrolling Shmup (“Shoot’em up”) game made wi
 # Ship selection: 
 - Simple player character selection screen with 2 choices before starting the game. The 2 chooseable player characters are different in regards to visuals as well as moving speed and projectile damage.
 
-# parallax effect for the background
+# Parallax effect for the background
